@@ -1,0 +1,19 @@
+# App
+data.json
+
+# IDE's
+.project
+.idea
+.vscode
+
+# Node.js & npm
+node_modules
+*.log
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system
+.DS_Store
+Thumbs.db
