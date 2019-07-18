@@ -12,6 +12,7 @@ function factory() {
     isStr,
     isArr,
     isObj,
+    isRegExp,
     isFunc,
     isSymbol
   }
@@ -67,6 +68,12 @@ function factory() {
    */
   function isObj(val) {
     return val === Object(val) && !isArr(val) && !isFunc(val) && !isSymbol(val)
+  }
+
+  /**
+   */
+  function isRegExp(val) {
+    return isObj(val) && val instanceof RegExp
   }
 
   /**
