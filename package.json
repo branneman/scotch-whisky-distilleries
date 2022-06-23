@@ -9,7 +9,7 @@
     "test": "eslint . && jest ."
   },
   "dependencies": {
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.5.0",
     "json-stable-stringify": "^1.0.1",
     "node-fetch": "^2.6.0"
   },
